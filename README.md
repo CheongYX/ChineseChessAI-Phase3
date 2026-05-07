@@ -27,6 +27,7 @@ To break the "black box" nature of AI decision-making, the system features a cus
 *Offline Computational Graph: Accurately records the algorithmic pruning loss-stops and cache reuse mechanisms.*
 
 ![Spatial Attention Distribution: Showcases the focal evaluation of board positions by the CNN model.](/backend/data/sessions/CYX_20260507_114743/第4回合_Heatmap.png)
+
 *Spatial Attention Distribution: Showcases the focal evaluation of board positions by the CNN model.*
 
 ## 📂 Project Structure
@@ -48,9 +49,6 @@ ChineseChessAI/
 │       └── sessions/        # [Auto-generated] Stores all offline logs and high-res decision tree images
 └── README.md
 ```
-
-
-
 
 ### 2. Start the Frontend (React)
 
