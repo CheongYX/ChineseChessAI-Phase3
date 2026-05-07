@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ========================
+# 1. 前端 (React/Node)
+# ========================
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+frontend/.env
+frontend/.DS_Store
+
+# ========================
+# 2. 后端 (Python/FastAPI)
+# ========================
+# 虚拟环境 (匹配你用的各种名字)
+venv/
+env/
+chess_ai/
+.venv/
+
+# 编译缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# ========================
+# 3. 本地生成的大体积数据
+# ========================
+# 忽略所有的对局图片记录，但保留文件夹结构
+backend/data/sessions/*
+!backend/data/sessions/.gitkeep
+
+# IDE 和系统文件
+.idea/
+.vscode/
+*.swp
+.DS_Store

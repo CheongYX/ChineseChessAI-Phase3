@@ -1,0 +1,26 @@
+Dependency directories
+
+frontend/node_modules/
+backend/venv/
+backend/env/
+
+Python compiled files
+
+pycache/
+*.py[cod]
+*$py.class
+
+OS generated files
+
+.DS_Store
+Thumbs.db
+
+Environment variables
+
+.env
+.env.local
+
+Build output
+
+frontend/dist/
+backend/build/
